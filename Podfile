@@ -6,6 +6,7 @@ target 'Interview' do
   use_frameworks!
 
   # Pods for Interview
+  pod 'NWPusher', '~> 0.7.0'
 
   target 'InterviewTests' do
     inherit! :search_paths
